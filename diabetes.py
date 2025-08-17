@@ -15,9 +15,9 @@ def load_data():
   def load_data():
     def load_data():
   def load_data():
-    
     df = pd.read_csv("data/diabetes.csv")
     return df
+
 
 
 @st.cache_resource
