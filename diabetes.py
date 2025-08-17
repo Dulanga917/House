@@ -12,11 +12,9 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 # ---------------------------
 @st.cache_data
 def load_data():
-  def load_data():
-    def load_data():
-  def load_data():
     df = pd.read_csv("data/diabetes.csv")
     return df
+
 
 
 
